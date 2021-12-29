@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header section css coding starting here */
+header {
+    background-color: #232831;
+    z-index: 10;
+}
+
+header .navbar .navbar-brand img {
+    width: 6rem;
+}
+
+header .navbar .nav-item .nav-link {
+    color: #fff;
+}
+
+header .mid .slider-heading {
+    font-size: 4rem;
+}
+
+/* header section css coding end here */
+
+/* whatToDO section css coding starting here */
+.whatToDo {
+    background-color: #835FA8;
+}
+
+.whatToDo .row .whatToDoimg img {
+    position: absolute;
+    top: -170px;
+    left: 50px;
+    z-index: 1;
+}
+
+.whatToDo .row .feature-text h2 {
+    font-size: 3rem;
+}
+
+.btn.fc-btn {
+    background-color: #3DD2AE;
+    border-radius: 34px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 50px;
+}
+
+.whatToDo .row .feature-text .fc-btn {
+    margin-top: 30px;
+}
+
+/* whatToDO section css coding end here */
+
+/* feature-area section css coding starting here */
+.feature-area {
+    position: relative;
+    z-index: 5;
+    background-color: #F4F8FB;
+}
+
+.feature-area .feature-text>h3 {
+    padding: 8px 0;
+    font-weight: 400;
+}
+
+.feature-area .feature-text>h4 {
+    color: #696f7c;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.feature-area .feature-text>p {
+    font-size: .9rem;
+}
+
+.feature-area .feature-text>a {
+    margin-top: 25px;
+}
+
+/* feature-area section css coding end here */
+
+/* promo section css coding starting here */
+.promo {
+    background-color: #232831;
+}
+
+.promo .section-title h2 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.promo .section-title p {
+    color: #9da5b0;
+    line-height: 1.6rem;
+}
+
+/* promo section css coding end here */
+
+/* services section css coding starting here */
+.services {
+    background-color: #2B303B;
+}
+
+.services .section-title h2 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.services .section-title p {
+    color: #9da5b0;
+    line-height: 1.6rem;
+}
+
+.services .service-box i {
+    color: #b5bbc2;
+    font-size: 24px;
+}
+
+.services .service-box:hover i {
+    color: #835FA8;
+    cursor: pointer
+}
+
+.services .service-box h3,
+.services .service-box p {
+    color: #9da5b0;
+    line-height: 1.6rem;
+}
+
+/* services section css coding end here */
+
+/* blog section css coding starting here */
+.blog {
+    background-color: #F4F8FB;
+}
+
+.blog .section-title h2 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.blog .section-title p {
+    color: #9da5b0;
+    line-height: 1.6rem;
+}
+
+.blog .fc-blog-post-box .blog-meta,
+.blog .fc-blog-post-box .blog-meta a {
+    color: #9da5b0;
+}
+
+/* blog section css coding end here */
+
+/* pricing section css coding starting here */
+.pricing {
+    background-color: #835FA8;
+}
+
+.pricing .section-title h2 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.pricing .section-title p {
+    line-height: 1.6rem;
+}
+
+.pricing-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pricing-box .package-name {
+    background-color: #232831;
+}
+
+.package-name h5,
+.package-price {
+    margin: 0;
+    color: #fff;
+}
+
+.package-name h5 {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 10px;
+}
+
+.pricing-box .package-price {
+    background-color: #2B303B;
+}
+
+.package-price {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.package-price span {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.package-price sup {
+    font-size: 24px;
+    font-weight: normal;
+    margin-right: 3px;
+}
+
+.package-content {
+    border: 1px solid #fff;
+    border-top: none;
+    box-sizing: border-box;
+    padding: 30px 15px;
+}
+
+.package-content>ul {
+    list-style: outside none none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.package-content li {
+    color: #fff;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.pricing-box .btn.fc-btn {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* pricing section css coding end here */
+
+/* contact section css coding starting here */
+.contact {
+    background-color: #2B303B;
+}
+
+.contact .section-title h2 {
+    font-size: 3rem;
+}
+
+.contact .section-title p {
+    color: #9da5b0;
+    line-height: 1.6rem;
+}
+
+.contact .fc-contact-form {
+    margin-bottom: 30px;
+}
+
+.contact .fc-contact-form input[type="text"],
+.contact .fc-contact-form input[type="email"],
+.contact .fc-contact-form textarea {
+    background-color: transparent !important;
+    color: #F4F8FB;
+    border: 1px solid #9da5b0;
+    border-radius: 0;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.contact .fc-contact-form textarea {
+    min-height: 280px;
+}
+
+/* contact section css coding end here */
+
+/* footer section css coding starting here */
+.footer {
+    background-color: #232831;
+}
+
+.footer .footer-widget .footer-widget-title h4,
+.footer .footer-widget .footer-widget-content p,
+.footer .footer-widget-content li {
+    color: #f6f7fa;
+}
+.footer .footer-widget .footer-widget-content p, .footer .footer-widget-content ul li{
+    font-size: .9rem;
+}
+
+.footer .footer-widget-content ul {
+    list-style: outside none none;
+    padding-left: 0;
+}
+
+.footer .footer-widget-content ul li,
+.footer-widget-content ul li a {
+    color: #9da5b0;
+    line-height: 28px;
+}
+
+.footer .footer-widget {
+    margin-bottom: 30px;
+}
+
+.footer .newsletter {
+    height: 50px;
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+}
+
+.footer .newsletter input {
+    border-radius: 0 8px 8px 0;
+    box-sizing: border-box;
+    float: left;
+    height: 50px;
+    line-height: 18px;
+    margin-left: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.footer .btn.fc-newsletter-btn {
+    background-color: #3dd2ae;
+    border-radius: 0 8px 8px 0;
+    color: #fff;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.footer .fc-warn {
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+.footer .copyright-area p {
+    color: #b3b3b3;
+    font-size: 13px;
+    text-align: center;
+}
+
+.footer .copyright-area a {
+    color: #3dd2ae;
+}
+
+.footer .copyright-area {
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+/* footer section css coding end here */
+
+
+@media (max-width:1200px) {
+    header .mid .slider-heading {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:992px) {
+    header .mid .slider-heading {
+        font-size: 2rem;
+    }
+
+    .whatToDo .row .whatToDoimg {
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    header .mid img {
+        width: 60vw;
+        display: block;
+        margin: -2rem auto 0 auto;
+    }
+
+    header .mid .slider-heading {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+    .whatToDo .row .feature-text h2 {
+        font-size: 2rem;
+    }
+
+    .feature-area .feature-text>a {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .promo .section-title h2 {
+        font-size: 2rem;
+    }
+
+    .services .section-title h2 {
+        font-size: 2rem;
+    }
+    .blog .section-title h2 {
+        font-size: 2rem;
+    }
+    .pricing .section-title h2 {
+        font-size: 2rem;
+    }
+    .contact .section-title h2 {
+        font-size: 2rem;
+    }
+}
